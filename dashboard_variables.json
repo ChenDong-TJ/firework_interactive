@@ -1,0 +1,15 @@
+{
+  "color1": 95.16330681437353,
+  "color2": 23.57470620191259,
+  "slider1": 26,
+  "slider2": 87,
+  "slider3": 32,
+  "slider4": 78,
+  "button1": false,
+  "button2": false,
+  "button3": false,
+  "button4": false,
+  "button5": false,
+  "numpad": "",
+  "error": "Failed to read variables"
+}
