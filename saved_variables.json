@@ -1,0 +1,44 @@
+[
+  {
+    "color1": [
+      67,
+      0,
+      0
+    ],
+    "color2": [
+      59,
+      0,
+      0
+    ],
+    "maxBrightness": 66,
+    "launchMode": 2,
+    "gradientMode": 0,
+    "explodeMode": 2,
+    "laserColor": false,
+    "mirrorAngle": 26,
+    "explosionLEDCount": 16,
+    "speedDelay": 6,
+    "id": 1
+  },
+  {
+    "color1": [
+      58,
+      0,
+      255
+    ],
+    "color2": [
+      0,
+      255,
+      216
+    ],
+    "maxBrightness": 189,
+    "launchMode": 2,
+    "gradientMode": 0,
+    "explodeMode": 0,
+    "laserColor": 1,
+    "mirrorAngle": 21,
+    "explosionLEDCount": 32,
+    "speedDelay": 2,
+    "id": 2
+  }
+]

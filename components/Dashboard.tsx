@@ -15,11 +15,11 @@ export function Dashboard() {
     slider2: 50,
     slider3: 50,
     slider4: 50,
-    button1: false,
-    button2: false,
-    button3: false,
-    button4: false,
-    button5: false,
+    button1: 0,
+    button2: 0,
+    button3: 0,
+    button4: 0,
+    button5: 0,
     numpad: "",
   })
 
@@ -130,28 +130,25 @@ export function Dashboard() {
       <div>
         <h2 className="text-2xl font-bold mb-4">Buttons</h2>
         <div className="grid grid-cols-3 gap-4">
-          {[1, 2, 3, 4, 5].map((i) => (
-            <Button
-              key={i}
-              variant={variables[`button${i}` as keyof typeof variables] ? "default" : "outline"}
-              onClick={() =>
-                updateVariable(`button${i}`, !variables[`button${i}` as keyof typeof variables])
-              }
-              className="w-full h-12"
-            >
-              Button {i}
-            </Button>
-          ))}
-        </div>
-      </div>
+          {[1, 2, 3, 4, 5].map((i) => {
+            const currentValue = variables[`button${i}` as keyof typeof variables] as number
+            const variant = currentValue === 0 ? "default" : currentValue === 1 ? "outline" : "destructive"
 
-      {/* Numpad Section */}
-      <div>
-        <h2 className="text-2xl font-bold mb-4">Numpad</h2>
-        <Numpad
-          value={variables.numpad}
-          onChange={(value) => updateVariable("numpad", value)}
-        />
+            return (
+              <Button
+                key={i}
+                variant={variant}
+                onClick={() => {
+                  const nextValue = (currentValue + 1) % 3 // Cycle through 0 → 1 → 2 → 0
+                  updateVariable(`button${i}`, nextValue)
+                }}
+                className="w-full h-12"
+              >
+                Button {i}: {currentValue}
+              </Button>
+            )
+          })}
+        </div>
       </div>
 
       {/* Preview and Save Buttons */}
