@@ -1,13 +1,12 @@
-import sys
 import json
 import serial
 import time
+import os
 
-# Helper to send effect to Arduino
 def send_effect_to_arduino(effect):
     try:
         ser = serial.Serial('/dev/ttyUSB0', 115200, timeout=1)
-        time.sleep(2)  # Wait for the connection to stabilize
+        time.sleep(2)
 
         command = f"P,{effect['color1'][0]},{effect['color1'][1]},{effect['color1'][2]}," + \
                   f"{effect['color2'][0]},{effect['color2'][1]},{effect['color2'][2]}," + \
@@ -22,31 +21,24 @@ def send_effect_to_arduino(effect):
         print(f"Error communicating with Arduino: {e}")
         return False
 
-def preview_function(variables):
-    """
-    Sends the effect to Arduino for preview.
+def loop_effects(file_name="saved_variables.json"):
+    if not os.path.exists(file_name):
+        print("Error: No saved effects to loop through.")
+        return
 
-    Args:
-        variables (dict): The input variables for preview.
+    with open(file_name, "r") as f:
+        try:
+            data = json.load(f)
+            if not isinstance(data, list):
+                raise ValueError("Saved data is not a list.")
+        except (json.JSONDecodeError, ValueError):
+            print("Error: Invalid saved data.")
+            return
 
-    Returns:
-        str: Preview result.
-    """
-    if send_effect_to_arduino(variables):
-        return f"Preview successful: {variables}"
-    else:
-        return f"Preview failed to communicate with Arduino."
+    print("Starting effect loop...")
+    for effect in data:
+        send_effect_to_arduino(effect)
+        time.sleep(20)  # Delay between effects
 
 if __name__ == "__main__":
-    if len(sys.argv) < 2:
-        print("Error: Missing input JSON.")
-        sys.exit(1)
-
-    variables_json = sys.argv[1]
-    try:
-        variables = json.loads(variables_json)
-        result = preview_function(variables)
-        print(result)
-    except json.JSONDecodeError as e:
-        print(f"Error: Invalid JSON input - {e}")
-        sys.exit(1)
+    loop_effects()

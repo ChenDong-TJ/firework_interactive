@@ -43,7 +43,7 @@ function formatVariables(variables: any) {
     gradientMode: variables.button2,
     explodeMode: variables.button3,
     laserColor: variables.button4,
-    mirrorAngle: Math.round((variables.slider2 / 100) * 30),
+    mirrorAngle: Math.round((variables.slider2 / 100) * 180),
     explosionLEDCount: Math.round((variables.slider3 / 100) * 50),
     speedDelay: Math.round((variables.slider4 / 100) * 8),
   };

@@ -1,27 +1,6 @@
 [
   {
     "color1": [
-      67,
-      0,
-      0
-    ],
-    "color2": [
-      59,
-      0,
-      0
-    ],
-    "maxBrightness": 66,
-    "launchMode": 2,
-    "gradientMode": 0,
-    "explodeMode": 2,
-    "laserColor": false,
-    "mirrorAngle": 26,
-    "explosionLEDCount": 16,
-    "speedDelay": 6,
-    "id": 1
-  },
-  {
-    "color1": [
       58,
       0,
       255
@@ -36,9 +15,933 @@
     "gradientMode": 0,
     "explodeMode": 0,
     "laserColor": 1,
-    "mirrorAngle": 21,
-    "explosionLEDCount": 32,
+    "mirrorAngle": 100,
+    "explosionLEDCount": 60,
     "speedDelay": 2,
     "id": 2
+  },
+  {
+    "color1": [
+      0,
+      255,
+      74
+    ],
+    "color2": [
+      210,
+      0,
+      255
+    ],
+    "maxBrightness": 189,
+    "launchMode": 2,
+    "gradientMode": 2,
+    "explodeMode": 2,
+    "laserColor": 0,
+    "mirrorAngle": 110,
+    "explosionLEDCount": 40,
+    "speedDelay": 7,
+    "id": 3
+  },
+  {
+    "color1": [
+      0,
+      255,
+      74
+    ],
+    "color2": [
+      210,
+      0,
+      255
+    ],
+    "maxBrightness": 189,
+    "launchMode": 2,
+    "gradientMode": 2,
+    "explodeMode": 2,
+    "laserColor": 0,
+    "mirrorAngle": 135,
+    "explosionLEDCount": 75,
+    "speedDelay": 7,
+    "id": 4
+  },
+  {
+    "color1": [
+      0,
+      255,
+      74
+    ],
+    "color2": [
+      210,
+      0,
+      255
+    ],
+    "maxBrightness": 189,
+    "launchMode": 2,
+    "gradientMode": 2,
+    "explodeMode": 2,
+    "laserColor": 0,
+    "mirrorAngle": 132,
+    "explosionLEDCount": 25,
+    "speedDelay": 7,
+    "id": 5
+  },
+  {
+    "color1": [
+      0,
+      255,
+      74
+    ],
+    "color2": [
+      210,
+      0,
+      255
+    ],
+    "maxBrightness": 189,
+    "launchMode": 2,
+    "gradientMode": 2,
+    "explodeMode": 2,
+    "laserColor": 0,
+    "mirrorAngle": 123,
+    "explosionLEDCount": 75,
+    "speedDelay": 7,
+    "id": 6
+  },
+  {
+    "color1": [
+      0,
+      255,
+      74
+    ],
+    "color2": [
+      255,
+      161,
+      0
+    ],
+    "maxBrightness": 189,
+    "launchMode": 2,
+    "gradientMode": 2,
+    "explodeMode": 2,
+    "laserColor": 0,
+    "mirrorAngle": 123,
+    "explosionLEDCount": 60,
+    "speedDelay": 1,
+    "id": 7
+  },
+  {
+    "color1": [
+      0,
+      255,
+      74
+    ],
+    "color2": [
+      255,
+      161,
+      0
+    ],
+    "maxBrightness": 189,
+    "launchMode": 2,
+    "gradientMode": 2,
+    "explodeMode": 2,
+    "laserColor": 0,
+    "mirrorAngle": 71,
+    "explosionLEDCount": 70,
+    "speedDelay": 1,
+    "id": 8
+  },
+  {
+    "color1": [
+      0,
+      255,
+      74
+    ],
+    "color2": [
+      255,
+      161,
+      0
+    ],
+    "maxBrightness": 189,
+    "launchMode": 2,
+    "gradientMode": 2,
+    "explodeMode": 2,
+    "laserColor": 0,
+    "mirrorAngle": 71,
+    "explosionLEDCount": 40,
+    "speedDelay": 1,
+    "id": 9
+  },
+  {
+    "color1": [
+      0,
+      255,
+      74
+    ],
+    "color2": [
+      255,
+      161,
+      0
+    ],
+    "maxBrightness": 189,
+    "launchMode": 2,
+    "gradientMode": 2,
+    "explodeMode": 0,
+    "laserColor": 0,
+    "mirrorAngle": 71,
+    "explosionLEDCount": 45,
+    "speedDelay": 1,
+    "id": 10
+  },
+  {
+    "color1": [
+      0,
+      255,
+      74
+    ],
+    "color2": [
+      255,
+      0,
+      103
+    ],
+    "maxBrightness": 189,
+    "launchMode": 2,
+    "gradientMode": 2,
+    "explodeMode": 0,
+    "laserColor": 0,
+    "mirrorAngle": 71,
+    "explosionLEDCount": 45,
+    "speedDelay": 1,
+    "id": 11
+  },
+  {
+    "color1": [
+      0,
+      255,
+      74
+    ],
+    "color2": [
+      255,
+      0,
+      103
+    ],
+    "maxBrightness": 189,
+    "launchMode": 2,
+    "gradientMode": 2,
+    "explodeMode": 0,
+    "laserColor": 0,
+    "mirrorAngle": 71,
+    "explosionLEDCount": 45,
+    "speedDelay": 6,
+    "id": 12
+  },
+  {
+    "color1": [
+      0,
+      255,
+      74
+    ],
+    "color2": [
+      255,
+      0,
+      103
+    ],
+    "maxBrightness": 189,
+    "launchMode": 2,
+    "gradientMode": 2,
+    "explodeMode": 1,
+    "laserColor": 0,
+    "mirrorAngle": 90,
+    "explosionLEDCount": 45,
+    "speedDelay": 6,
+    "id": 13
+  },
+  {
+    "color1": [
+      0,
+      255,
+      74
+    ],
+    "color2": [
+      255,
+      0,
+      103
+    ],
+    "maxBrightness": 217,
+    "launchMode": 2,
+    "gradientMode": 2,
+    "explodeMode": 2,
+    "laserColor": 0,
+    "mirrorAngle": 105,
+    "explosionLEDCount": 45,
+    "speedDelay": 6,
+    "id": 14
+  },
+  {
+    "color1": [
+      255,
+      210,
+      0
+    ],
+    "color2": [
+      255,
+      0,
+      103
+    ],
+    "maxBrightness": 217,
+    "launchMode": 1,
+    "gradientMode": 2,
+    "explodeMode": 2,
+    "laserColor": 0,
+    "mirrorAngle": 90,
+    "explosionLEDCount": 30,
+    "speedDelay": 5,
+    "id": 15
+  },
+  {
+    "color1": [
+      255,
+      0,
+      214
+    ],
+    "color2": [
+      244,
+      255,
+      0
+    ],
+    "maxBrightness": 217,
+    "launchMode": 1,
+    "gradientMode": 2,
+    "explodeMode": 2,
+    "laserColor": 0,
+    "mirrorAngle": 90,
+    "explosionLEDCount": 30,
+    "speedDelay": 5,
+    "id": 16
+  },
+  {
+    "color1": [
+      0,
+      255,
+      96
+    ],
+    "color2": [
+      244,
+      255,
+      0
+    ],
+    "maxBrightness": 217,
+    "launchMode": 1,
+    "gradientMode": 0,
+    "explodeMode": 2,
+    "laserColor": 0,
+    "mirrorAngle": 90,
+    "explosionLEDCount": 30,
+    "speedDelay": 5,
+    "id": 17
+  },
+  {
+    "color1": [
+      0,
+      255,
+      96
+    ],
+    "color2": [
+      155,
+      0,
+      255
+    ],
+    "maxBrightness": 217,
+    "launchMode": 1,
+    "gradientMode": 1,
+    "explodeMode": 2,
+    "laserColor": 0,
+    "mirrorAngle": 90,
+    "explosionLEDCount": 43,
+    "speedDelay": 1,
+    "id": 18
+  },
+  {
+    "color1": [
+      224,
+      0,
+      255
+    ],
+    "color2": [
+      255,
+      0,
+      33
+    ],
+    "maxBrightness": 217,
+    "launchMode": 1,
+    "gradientMode": 2,
+    "explodeMode": 2,
+    "laserColor": 0,
+    "mirrorAngle": 90,
+    "explosionLEDCount": 43,
+    "speedDelay": 1,
+    "id": 19
+  },
+  {
+    "color1": [
+      255,
+      0,
+      243
+    ],
+    "color2": [
+      0,
+      255,
+      40
+    ],
+    "maxBrightness": 217,
+    "launchMode": 1,
+    "gradientMode": 2,
+    "explodeMode": 2,
+    "laserColor": 0,
+    "mirrorAngle": 90,
+    "explosionLEDCount": 43,
+    "speedDelay": 1,
+    "id": 20
+  },
+  {
+    "color1": [
+      255,
+      0,
+      243
+    ],
+    "color2": [
+      0,
+      255,
+      40
+    ],
+    "maxBrightness": 217,
+    "launchMode": 1,
+    "gradientMode": 2,
+    "explodeMode": 2,
+    "laserColor": 0,
+    "mirrorAngle": 90,
+    "explosionLEDCount": 43,
+    "speedDelay": 1,
+    "id": 21
+  },
+  {
+    "color1": [
+      255,
+      0,
+      243
+    ],
+    "color2": [
+      0,
+      255,
+      40
+    ],
+    "maxBrightness": 217,
+    "launchMode": 1,
+    "gradientMode": 2,
+    "explodeMode": 2,
+    "laserColor": 0,
+    "mirrorAngle": 90,
+    "explosionLEDCount": 43,
+    "speedDelay": 1,
+    "id": 22
+  },
+  {
+    "color1": [
+      255,
+      0,
+      243
+    ],
+    "color2": [
+      0,
+      255,
+      40
+    ],
+    "maxBrightness": 217,
+    "launchMode": 1,
+    "gradientMode": 2,
+    "explodeMode": 2,
+    "laserColor": 0,
+    "mirrorAngle": 90,
+    "explosionLEDCount": 43,
+    "speedDelay": 1,
+    "id": 23
+  },
+  {
+    "color1": [
+      255,
+      0,
+      243
+    ],
+    "color2": [
+      0,
+      255,
+      40
+    ],
+    "maxBrightness": 217,
+    "launchMode": 1,
+    "gradientMode": 2,
+    "explodeMode": 2,
+    "laserColor": 0,
+    "mirrorAngle": 90,
+    "explosionLEDCount": 43,
+    "speedDelay": 1,
+    "id": 24
+  },
+  {
+    "color1": [
+      255,
+      0,
+      243
+    ],
+    "color2": [
+      0,
+      255,
+      40
+    ],
+    "maxBrightness": 217,
+    "launchMode": 1,
+    "gradientMode": 2,
+    "explodeMode": 2,
+    "laserColor": 0,
+    "mirrorAngle": 90,
+    "explosionLEDCount": 43,
+    "speedDelay": 5,
+    "id": 25
+  },
+  {
+    "color1": [
+      255,
+      0,
+      243
+    ],
+    "color2": [
+      0,
+      255,
+      40
+    ],
+    "maxBrightness": 217,
+    "launchMode": 1,
+    "gradientMode": 2,
+    "explodeMode": 2,
+    "laserColor": 0,
+    "mirrorAngle": 90,
+    "explosionLEDCount": 43,
+    "speedDelay": 2,
+    "id": 26
+  },
+  {
+    "color1": [
+      255,
+      0,
+      243
+    ],
+    "color2": [
+      0,
+      255,
+      40
+    ],
+    "maxBrightness": 217,
+    "launchMode": 1,
+    "gradientMode": 2,
+    "explodeMode": 2,
+    "laserColor": 0,
+    "mirrorAngle": 90,
+    "explosionLEDCount": 43,
+    "speedDelay": 2,
+    "id": 27
+  },
+  {
+    "color1": [
+      255,
+      0,
+      243
+    ],
+    "color2": [
+      0,
+      255,
+      40
+    ],
+    "maxBrightness": 217,
+    "launchMode": 1,
+    "gradientMode": 2,
+    "explodeMode": 2,
+    "laserColor": 0,
+    "mirrorAngle": 90,
+    "explosionLEDCount": 43,
+    "speedDelay": 2,
+    "id": 28
+  },
+  {
+    "color1": [
+      255,
+      0,
+      243
+    ],
+    "color2": [
+      0,
+      255,
+      40
+    ],
+    "maxBrightness": 217,
+    "launchMode": 1,
+    "gradientMode": 2,
+    "explodeMode": 2,
+    "laserColor": 0,
+    "mirrorAngle": 90,
+    "explosionLEDCount": 43,
+    "speedDelay": 2,
+    "id": 29
+  },
+  {
+    "color1": [
+      255,
+      0,
+      243
+    ],
+    "color2": [
+      0,
+      255,
+      40
+    ],
+    "maxBrightness": 217,
+    "launchMode": 1,
+    "gradientMode": 0,
+    "explodeMode": 2,
+    "laserColor": 0,
+    "mirrorAngle": 90,
+    "explosionLEDCount": 43,
+    "speedDelay": 2,
+    "id": 30
+  },
+  {
+    "color1": [
+      255,
+      0,
+      243
+    ],
+    "color2": [
+      0,
+      255,
+      40
+    ],
+    "maxBrightness": 217,
+    "launchMode": 1,
+    "gradientMode": 0,
+    "explodeMode": 2,
+    "laserColor": 0,
+    "mirrorAngle": 90,
+    "explosionLEDCount": 43,
+    "speedDelay": 5,
+    "id": 31
+  },
+  {
+    "color1": [
+      255,
+      0,
+      243
+    ],
+    "color2": [
+      0,
+      255,
+      40
+    ],
+    "maxBrightness": 217,
+    "launchMode": 1,
+    "gradientMode": 0,
+    "explodeMode": 2,
+    "laserColor": 0,
+    "mirrorAngle": 90,
+    "explosionLEDCount": 43,
+    "speedDelay": 5,
+    "id": 32
+  },
+  {
+    "color1": [
+      255,
+      0,
+      243
+    ],
+    "color2": [
+      0,
+      255,
+      40
+    ],
+    "maxBrightness": 217,
+    "launchMode": 1,
+    "gradientMode": 0,
+    "explodeMode": 2,
+    "laserColor": 0,
+    "mirrorAngle": 90,
+    "explosionLEDCount": 43,
+    "speedDelay": 5,
+    "id": 33
+  },
+  {
+    "color1": [
+      255,
+      0,
+      243
+    ],
+    "color2": [
+      255,
+      63,
+      0
+    ],
+    "maxBrightness": 64,
+    "launchMode": 2,
+    "gradientMode": 0,
+    "explodeMode": 2,
+    "laserColor": 1,
+    "mirrorAngle": 90,
+    "explosionLEDCount": 14,
+    "speedDelay": 3,
+    "id": 34
+  },
+  {
+    "color1": [
+      0,
+      19,
+      255
+    ],
+    "color2": [
+      86,
+      255,
+      0
+    ],
+    "maxBrightness": 255,
+    "launchMode": 0,
+    "gradientMode": 2,
+    "explodeMode": 0,
+    "laserColor": 0,
+    "mirrorAngle": 120,
+    "explosionLEDCount": 40,
+    "speedDelay": 8,
+    "id": 35
+  },
+  {
+    "color1": [
+      15,
+      255,
+      0
+    ],
+    "color2": [
+      239,
+      0,
+      255
+    ],
+    "maxBrightness": 125,
+    "launchMode": 0,
+    "gradientMode": 2,
+    "explodeMode": 0,
+    "laserColor": 0,
+    "mirrorAngle": 120,
+    "explosionLEDCount": 14,
+    "speedDelay": 0,
+    "id": 36
+  },
+  {
+    "color1": [
+      12,
+      0,
+      255
+    ],
+    "color2": [
+      0,
+      255,
+      57
+    ],
+    "maxBrightness": 125,
+    "launchMode": 1,
+    "gradientMode": 1,
+    "explodeMode": 1,
+    "laserColor": 0,
+    "mirrorAngle": 120,
+    "explosionLEDCount": 34,
+    "speedDelay": 0,
+    "id": 37
+  },
+  {
+    "color1": [
+      255,
+      0,
+      218
+    ],
+    "color2": [
+      0,
+      255,
+      37
+    ],
+    "maxBrightness": 227,
+    "launchMode": 2,
+    "gradientMode": 2,
+    "explodeMode": 2,
+    "laserColor": 1,
+    "mirrorAngle": 130,
+    "explosionLEDCount": 14,
+    "speedDelay": 5,
+    "id": 38
+  },
+  {
+    "color1": [
+      255,
+      0,
+      218
+    ],
+    "color2": [
+      0,
+      255,
+      37
+    ],
+    "maxBrightness": 227,
+    "launchMode": 2,
+    "gradientMode": 2,
+    "explodeMode": 2,
+    "laserColor": 1,
+    "mirrorAngle": 19,
+    "explosionLEDCount": 14,
+    "speedDelay": 5,
+    "id": 39
+  },
+  {
+    "color1": [
+      255,
+      0,
+      218
+    ],
+    "color2": [
+      0,
+      255,
+      37
+    ],
+    "maxBrightness": 227,
+    "launchMode": 2,
+    "gradientMode": 2,
+    "explodeMode": 2,
+    "laserColor": 1,
+    "mirrorAngle": 180,
+    "explosionLEDCount": 0,
+    "speedDelay": 5,
+    "id": 40
+  },
+  {
+    "color1": [
+      255,
+      0,
+      218
+    ],
+    "color2": [
+      0,
+      255,
+      37
+    ],
+    "maxBrightness": 227,
+    "launchMode": 2,
+    "gradientMode": 2,
+    "explodeMode": 2,
+    "laserColor": 1,
+    "mirrorAngle": 75,
+    "explosionLEDCount": 44,
+    "speedDelay": 5,
+    "id": 41
+  },
+  {
+    "color1": [
+      255,
+      0,
+      218
+    ],
+    "color2": [
+      0,
+      255,
+      37
+    ],
+    "maxBrightness": 227,
+    "launchMode": 2,
+    "gradientMode": 2,
+    "explodeMode": 2,
+    "laserColor": 1,
+    "mirrorAngle": 139,
+    "explosionLEDCount": 50,
+    "speedDelay": 5,
+    "id": 42
+  },
+  {
+    "color1": [
+      255,
+      0,
+      218
+    ],
+    "color2": [
+      0,
+      255,
+      37
+    ],
+    "maxBrightness": 227,
+    "launchMode": 2,
+    "gradientMode": 2,
+    "explodeMode": 2,
+    "laserColor": 1,
+    "mirrorAngle": 129,
+    "explosionLEDCount": 0,
+    "speedDelay": 5,
+    "id": 43
+  },
+  {
+    "color1": [
+      0,
+      75,
+      255
+    ],
+    "color2": [
+      0,
+      15,
+      255
+    ],
+    "maxBrightness": 255,
+    "launchMode": 1,
+    "gradientMode": 0,
+    "explodeMode": 2,
+    "laserColor": 0,
+    "mirrorAngle": 30,
+    "explosionLEDCount": 37,
+    "speedDelay": 2,
+    "id": 43
+  },
+  {
+    "color1": [
+      255,
+      0,
+      3
+    ],
+    "color2": [
+      0,
+      233,
+      255
+    ],
+    "maxBrightness": 102,
+    "launchMode": 1,
+    "gradientMode": 0,
+    "explodeMode": 2,
+    "laserColor": 0,
+    "mirrorAngle": 30,
+    "explosionLEDCount": 37,
+    "speedDelay": 2,
+    "id": 44
+  },
+  {
+    "color1": [
+      255,
+      0,
+      3
+    ],
+    "color2": [
+      0,
+      233,
+      255
+    ],
+    "maxBrightness": 102,
+    "launchMode": 1,
+    "gradientMode": 0,
+    "explodeMode": 2,
+    "laserColor": 0,
+    "mirrorAngle": 30,
+    "explosionLEDCount": 37,
+    "speedDelay": 0,
+    "id": 45
   }
 ]

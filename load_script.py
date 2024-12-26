@@ -23,56 +23,49 @@ def send_effect_to_arduino(effect):
         print(f"Error communicating with Arduino: {e}")
         return False
 
-def save_function(variables):
+def load_function(requested_id):
     """
-    Appends the given variables to a JSON file with a unique ID and sends the effect to Arduino.
+    Loads the variables with the given ID from the JSON file and sends them to Arduino.
 
     Args:
-        variables (dict): The input variables to save.
+        requested_id (int): The ID of the variables to load.
 
     Returns:
-        str: Success message with the assigned ID.
+        str: Success or error message.
     """
     file_name = "saved_variables.json"
-    data = []
+
+    # Check if the file exists
+    if not os.path.exists(file_name):
+        return "Error: saved_variables.json does not exist."
 
     # Load existing data
-    if os.path.exists(file_name):
+    try:
         with open(file_name, "r") as f:
-            try:
-                data = json.load(f)
-                if not isinstance(data, list):
-                    raise ValueError("Existing data is not a list")
-            except (json.JSONDecodeError, ValueError):
-                data = []
+            data = json.load(f)
+    except (json.JSONDecodeError, ValueError):
+        return "Error: Failed to decode saved_variables.json."
 
-    # Assign a unique ID
-    new_id = len(data) + 1
-    variables["id"] = new_id
-
-    # Append the new variables
-    data.append(variables)
-
-    # Save the updated data
-    with open(file_name, "w") as f:
-        json.dump(data, f, indent=2)
+    # Find the matching ID
+    effect = next((item for item in data if item["id"] == requested_id), None)
+    if not effect:
+        return f"Error: No entry found with ID {requested_id}."
 
     # Send the effect to Arduino
-    if send_effect_to_arduino(variables):
-        return f"您的专属烟花ID: {new_id}"
+    if send_effect_to_arduino(effect):
+        return f"Effect with ID {requested_id} sent to Arduino successfully."
     else:
-        return f"Variables saved successfully with ID: {new_id}, but failed to communicate with Arduino."
+        return f"Effect with ID {requested_id} loaded, but failed to send to Arduino."
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:
-        print("Error: Missing input JSON.")
+        print("Error: Missing ID parameter.")
         sys.exit(1)
 
-    variables_json = sys.argv[1]
     try:
-        variables = json.loads(variables_json)
-        result = save_function(variables)
+        requested_id = int(sys.argv[1])
+        result = load_function(requested_id)
         print(result)
-    except json.JSONDecodeError as e:
-        print(f"Error: Invalid JSON input - {e}")
+    except ValueError:
+        print("Error: Invalid ID parameter.")
         sys.exit(1)
